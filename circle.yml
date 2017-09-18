@@ -1,8 +1,6 @@
 machine:
   node:
     version: 6.9.4
-  environment:
-    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 
 dependencies:
   pre:
@@ -13,9 +11,3 @@ dependencies:
   - sudo apt-get update
   - sudo apt-get --only-upgrade install google-chrome-stable
   - google-chrome --version
-
-test:
-  override:
-    - npm test
-  post:
-    - rm .env
