@@ -1,0 +1,19 @@
+machine:
+  node:
+    version: 6.9.4
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+
+dependencies:
+  pre:
+    - echo "NODE_ENV=production" >> .env
+  override:
+    - npm --ignore-scripts
+  cache_directories:
+    - ~/.cache/yarn
+
+test:
+  override:
+    - npm test
+  post:
+    - rm .env
