@@ -13,7 +13,8 @@
     "url": "git@github.com:nightwatchjs/nightwatch.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch --env circleci",
+    "test": "./node_modules/.bin/nightwatch",
+    "testt": "./node_modules/.bin/nightwatch --env circleci",
     "test-chrome": "./node_modules/.bin/nightwatch --env chrome",
     "test-parallel": "./node_modules/.bin/nightwatch --env chrome,firefox"
   },
