@@ -7,8 +7,6 @@ machine:
 dependencies:
   pre:
     - echo "NODE_ENV=production" >> .env
-  override:
-    - npm --ignore-scripts
   cache_directories:
     - ~/.cache/yarn
 
