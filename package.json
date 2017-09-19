@@ -1,17 +1,8 @@
 {
-  "name": "nightwatch-demos",
+  "name": "staycircles-e2e",
   "description": "",
-  "version": "0.0.1",
-  "author": {
-    "name": "Andrei Rusu",
-    "email": "andrei@nightwatchjs.org"
-  },
-  "main": "./lib/index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:nightwatchjs/nightwatch.git"
-  },
+  "version": "1.0.0",
+  "license": "UNLICENSED",
   "scripts": {
     "test": "./node_modules/.bin/nightwatch"
   },
