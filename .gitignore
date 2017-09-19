@@ -57,5 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# Nightwatch Reports
+# Nightwatch
 reports/
+tests_output
+selenium-debug.log
+

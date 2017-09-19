@@ -13,15 +13,9 @@
     "url": "git@github.com:nightwatchjs/nightwatch.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch",
-    "testt": "./node_modules/.bin/nightwatch --env circleci",
-    "test-chrome": "./node_modules/.bin/nightwatch --env chrome",
-    "test-parallel": "./node_modules/.bin/nightwatch --env chrome,firefox"
+    "test": "./node_modules/.bin/nightwatch"
   },
   "dependencies": {
-    "chai": "^3.5.0",
-    "chromedriver": "2.21.2",
-    "nightwatch": "git://github.com/nightwatchjs/nightwatch.git",
-    "selenium-server-standalone-jar": "2.51.0"
+    "nightwatch": "git://github.com/nightwatchjs/nightwatch.git"
   }
 }
